@@ -44,8 +44,26 @@ This project implements a complete pipeline for face recognition:
 ├── requirements.txt
 └── README.md
 
-# Recommended installation (use virtualenv / conda)
-pip install -r requirements.txt
+## Usage
+
+1. Clone the repository:
+   ```bash
 
 git clone https://github.com/YOUR_USERNAME/face-recognition-arcface.git
 cd face-recognition-arcface
+
+# Recommended installation (use virtualenv / conda)
+pip install -r requirements.txt
+
+
+2. Run the script:
+ 
+   ```bash
+   python test.py
+   ```
+
+## Acknowledgements
+
+- [InsightFace](https://github.com/deepinsight/insightface) for embeddings 
+- [OpenCV](https://opencv.org/) for video processing.
+- [scikit-learn](https://scikit-learn.org/)  for model 'SVM' and data preprocessing
